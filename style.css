@@ -95,3 +95,25 @@ img {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+
+
+
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.second-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
