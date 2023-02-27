@@ -55,7 +55,11 @@ h1 {
     display: flex;
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 8px;
+    padding: 6px;
+    border: 1px #3882F6;
+    border-radius: 10px;
+    width: 130px;
+    justify-content: center;
 
 }
 
@@ -63,12 +67,31 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
 
 }
 
-.content-left,.content-right {
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.content-right {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+}
+
+img {
+    margin-bottom: 50px;
+}
+
+.p-first {
+    font-size: 18px;
+    color: #E5E7EB;
 }
