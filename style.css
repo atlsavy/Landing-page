@@ -104,16 +104,38 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-}
-
-.second-header {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.row-of-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .box1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 18px;
+    flex-direction: column;
+}
+
+.box2 {
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+}
+
+.box3 {
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+}
+
+.box4 {
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
