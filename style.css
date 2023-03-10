@@ -104,38 +104,20 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .row-of-boxes {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin-top: 50px;
+    margin-left: 150px;
+    justify-content: space-around;
 }
 
-.box1 {
-    display: flex;
-    font-size: 18px;
-    flex-direction: column;
-}
-
-.box2 {
-    display: flex;
-    font-size: 18px;
-    flex-direction: column;
-}
-
-.box3 {
-    display: flex;
-    font-size: 18px;
-    flex-direction: column;
-}
-
-.box4 {
-    display: flex;
-    font-size: 18px;
-    flex-direction: column;
-    flex-wrap: wrap;
+.box-blue{
+    border: solid #3882F6;
+    border-radius: 24px;
+    padding: 90px;
+    width: 50px;
 }
